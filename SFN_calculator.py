@@ -60,7 +60,7 @@ def parse_hex_input(hex_input):
 
     # Decode each field
     results = {
-        "SFN Name(HEX)": sfn_name, "SFN Name(ASCII)": bytes.fromhex(sfn_name).decode(errors='replace'),
+        "SFN Name(ASCII)": bytes.fromhex(sfn_name).decode(errors='replace'),
         "Extension": bytes.fromhex(extension).decode(errors='replace'),
         "Attributes": decode_attributes(attributes),
         "Reserved": reserved,
