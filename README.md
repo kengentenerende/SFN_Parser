@@ -20,7 +20,7 @@ This Python script parses and decodes various metadata fields from a given hex s
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/sfn_parser.git
+    git clone https://github.com/kengentenerende/SFN_Parser.git
     cd sfn_parser
     ```
 
