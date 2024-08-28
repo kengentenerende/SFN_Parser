@@ -2,6 +2,11 @@
 
 This Python script parses and decodes various metadata fields from a given hex string representing a file's short file name (SFN) entry. It supports the decoding of file attributes, creation/modification times, dates, and file size, considering little-endian format as needed.
 
+##  What is SFN?
+
+An 8.3 filename (also called a short filename or SFN) is one that obeys the filename convention used by old versions of DOS and versions of Microsoft Windows prior to Windows 95 and Windows NT 3.5. It is also used in modern Microsoft operating systems as an alternate filename to the long filename, to provide compatibility with legacy programs. The filename convention is limited by the FAT file system. Similar 8.3 file naming schemes have also existed on earlier CP/M, TRS-80, Atari, and some Data General and Digital Equipment Corporation minicomputer operating systems.
+- [8.3 filename](https://en.wikipedia.org/wiki/8.3_filename)
+
 ## Features
 
 - **SFN Name & Extension**: Extracts the short file name and file extension.
